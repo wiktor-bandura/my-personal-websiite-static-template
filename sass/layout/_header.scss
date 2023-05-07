@@ -142,7 +142,7 @@
     height: 100vh;
     background-color: #333;
     opacity: 0;
-    z-index: 2;
+    z-index: 4;
     transform: translateX(100%);
     transition: opacity .4s ease;
 }

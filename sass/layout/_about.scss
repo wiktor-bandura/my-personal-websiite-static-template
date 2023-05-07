@@ -3,8 +3,8 @@
     color: $primary;
     font-family: $secondary-font;
     position: relative;
-    margin: 4rem 0;
-    border-radius: .7rem;
+    margin-top: 4rem;
+    z-index: 2;
 
     &__head {
         display: flex;
@@ -14,8 +14,8 @@
 
     &__switch {
         color: inherit;
-        padding: 3rem 1.5rem;
-        font-size: 1.8rem;
+        padding: 1.5rem;
+        font-size: 1.6rem;
         font-weight: bold;
         text-transform: uppercase;
         text-decoration: none;
@@ -24,6 +24,7 @@
         justify-content: center;
         text-align: center;
         flex: 1;
+        flex-grow: 1;
 
         &--active {
             color: $secondary;
@@ -34,6 +35,7 @@
     &__content {
         font-size: 2rem;
         line-height: 1.5;
+        text-align: justify;
         padding: 2rem;
         visibility: hidden;
         height: 0;
