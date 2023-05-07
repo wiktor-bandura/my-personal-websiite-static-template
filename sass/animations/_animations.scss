@@ -1,0 +1,14 @@
+@keyframes jump {
+
+    0% {
+        transform: translateY(-.5rem) rotate(45deg);
+    }
+
+    50% {
+        transform: translateY(.3rem) rotate(45deg);
+    }
+
+    100% {
+        transform: translateY(-.5rem) rotate(45deg);
+    }
+}

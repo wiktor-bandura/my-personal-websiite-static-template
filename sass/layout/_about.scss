@@ -1,0 +1,47 @@
+.about-section {
+    background-color: $secondary;
+    color: $primary;
+    font-family: $secondary-font;
+    position: relative;
+    margin: 4rem 0;
+    border-radius: .7rem;
+
+    &__head {
+        display: flex;
+        width: 100%;
+        border-bottom: .1rem solid $primary;
+    }
+
+    &__switch {
+        color: inherit;
+        padding: 3rem 1.5rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex: 1;
+
+        &--active {
+            color: $secondary;
+            background-color: $primary;
+        }
+    }
+
+    &__content {
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 2rem;
+        visibility: hidden;
+        height: 0;
+        transition: .3s ease;
+
+        &--active {
+            visibility: visible;
+            height: 100%;
+        }
+    }
+}

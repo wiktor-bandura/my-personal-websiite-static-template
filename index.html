@@ -6,11 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiktor Bandura - Strony Internetowe</title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <div style="background-color: aqua; height: 2000px;" class="container">
-        <h2>Wiktor Bandura</h2>
+    <div class="container">
+        <header class="header-section">
+            <a class="header-section__homepage-link" href="/"><img src="/img/logo.svg" alt="Logo" class="header-section__logo"></a>
+        <input type="checkbox" id="burger" class="burger-checkbox">
+            <label for="burger">
+                <div class="header-section__burger">
+                    <div class="burger-icon"></div>
+                </div>
+            </label>
+            
+            <nav class="header-section__nav">
+                <h2 class="header-section__nav-title">Wiktor Bandura</h2>
+
+                <ul class="header-section__nav-list">
+                    <li class="header-section__nav-item"><a href="#" class="header-section__nav-link">Realizacje</a></li>
+                    <li class="header-section__nav-item"><a href="#" class="header-section__nav-link">Technologie</a></li>
+                    <li class="header-section__nav-item"><a href="#" class="header-section__nav-link">Blog</a></li>
+                    <li class="header-section__nav-item"><a href="#" class="header-section__nav-link">Skontaktuj się</a></li>
+                </ul>
+
+                <div class="header-section__nav-socialmedia-wrapper">
+                    <a class="header-section__nav-socialmedia-link" target="_blank" href="https://www.linkedin.com/in/wiktor-bandura/"><img src="/img/linkedin-icon.svg" alt="" class="header-section__nav-socialmedia-icon"></a>
+                    <a class="header-section__nav-socialmedia-link" target="_blank" href="https://www.instagram.com/wiktor.js/"><img src="/img/instagram-icon.svg" alt="" class="header-section__nav-socialmedia-icon"></a>
+                    <a class="header-section__nav-socialmedia-link" target="_blank" href="https://github.com/wiktor-bandura"><img src="/img/github-icon.svg" alt="" class="header-section__nav-socialmedia-icon"></a>
+                </div>
+            </nav>
+            <div class="backdrop"></div>
+        </header>
+        <section class="hero-section">
+            <h2 class="hero-section__welcome">Cześć, <br> Jestem <span class="violet">Wiktor</span>,<br> tworzę strony oraz <br>aplikacje internetowe 
+            </h2>
+    
+            <div class="hero-section__socialmedia-wrapper">
+                <a class="hero-sercion__socialmedia-link" target="_blank" href="https://www.linkedin.com/in/wiktor-bandura/"><img src="/img/linkedin-icon.svg" alt="" class="hero-section__socialmedia-icon"></a>
+                <a class="hero-sercion__socialmedia-link" target="_blank" href="https://www.instagram.com/wiktor.js/"><img src="/img/instagram-icon.svg" alt="" class="hero-section__socialmedia-icon"></a>
+                <a class="hero-sercion__socialmedia-link" target="_blank" href="https://github.com/wiktor-bandura"><img src="/img/github-icon.svg" alt="" class="hero-section__socialmedia-icon"></a>
+            </div>
+
+            <div class="hero-section__cta-down">
+                <p>Pozwól, że opowiem trochę o sobie</p>
+                <div class="hero-section__arrow-down">
+                    <div class="hero-section__arrow-down-icon"></div>
+                </div>
+            </div>
+        </section>
+        <section class="about-section">
+             <div class="about-section__head">
+                <a href="#why-me" class="about-section__switch">Dlaczego warto ze mną pracować?</a>
+                <a href="#whoami" class="about-section__switch about-section__switch--active">Kim jestem?</a>
+                <a href="#technologies" class="about-section__switch">Jakie technologie lubię?</a>
+             </div>  
+             <p class="about-section__content about-section__content--active">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ex atque, et nostrum unde eligendi, blanditiis quasi alias consequatur cupiditate est ipsum, obcaecati cumque magnam. At cumque nobis reprehenderit in.
+             </p>
+             <p class="about-section__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ex atque, et nostrum unde eligendi, blanditiis quasi alias consequatur cupiditate est ipsum, obcaecati cumque magnam. At cumque nobis reprehenderit in.
+             </p>
+             <p class="about-section__content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem ex atque, et nostrum unde eligendi, blanditiis quasi alias consequatur cupiditate est ipsum, obcaecati cumque magnam. At cumque nobis reprehenderit in.
+             </p>
+        </section>
     </div>
+    <script type="text/javascript">
+        const checkbox = document.querySelector('#burger');
+        checkbox.addEventListener('change', () => checkbox.checked ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'scroll')
+    </script>
 </body>
 </html>
