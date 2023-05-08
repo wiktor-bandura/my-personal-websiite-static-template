@@ -1,0 +1,57 @@
+.realizations-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    position: relative;
+    padding: 1.5rem;
+    background-color: $secondary;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 3;
+
+    &__realization {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        color: $primary;
+        padding: 2.5rem;
+
+        .heading-4 {
+            font-weight: 500;
+            border-radius: inherit;
+        }
+
+        &-wrapper {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-thumbnail {
+            display: block;
+            position: relative;
+            margin-top: 2rem;
+            width: 100%;
+        }
+
+        &-excerpt {
+            font-family: $secondary-font;
+            font-size: 1.8rem;
+            padding: 2rem 0;
+        }
+
+        &-link {
+            font-size: 1.6rem;
+        }
+
+        &:hover > &-thumbnail {
+
+        }
+    }
+
+    &__title {
+        color: $primary;
+        text-align: center;
+        font-size: 3.2rem;
+        grid-column:  1 / -1;
+    }
+}

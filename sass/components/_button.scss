@@ -1,0 +1,14 @@
+.button {
+    display: block;
+    padding: 1rem 2rem;
+    color: $secondary;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $primary;
+    width: fit-content;
+    transition: .1s ease-in-out;
+
+    &:hover {
+        transform: translateY(.3rem);
+    }
+}

@@ -1,8 +1,16 @@
 .clip-background {
     width: 100%;
-    height: 80rem;
     background-color: $primary;
-    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
-    transform: translateY(-35%);
-    padding-top: 35rem;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -35rem;
+    height: 40rem;
+
+    &--reverse {
+        clip-path: polygon(0 0, 100% 0, 100% 60%, 0% 100%);
+        margin-top: -10rem;
+    }
+}
+
+.violet-bgc {
+    background-color: $primary;
 }

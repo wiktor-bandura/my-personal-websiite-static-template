@@ -1,0 +1,41 @@
+.offer-section {
+    display: block;
+    padding-bottom: 5rem;
+
+    &__title {
+       
+        text-align: center;
+        font-size: 3.2rem;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+        grid-column-gap: 7rem;
+        grid-row-gap: 4rem;
+        position: relative;
+        padding: 1.5rem;
+
+        &-box {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+
+            .heading-3 {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+            }
+
+            &-icon {
+                max-height: 3.2rem;
+            }
+
+            &-content {
+                font-family: $secondary-font;
+                font-size: 1.8rem;
+                padding: 1rem;
+            }
+        }
+    }
+}

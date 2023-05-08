@@ -5,6 +5,7 @@
     position: relative;
     margin-top: 4rem;
     z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
     &__head {
         display: flex;
@@ -36,7 +37,6 @@
         font-size: 2rem;
         line-height: 1.5;
         text-align: justify;
-        padding: 2rem;
         visibility: hidden;
         height: 0;
         transition: .3s ease;
@@ -44,6 +44,7 @@
         &--active {
             visibility: visible;
             height: 100%;
+            padding: 4rem;
         }
     }
 }
