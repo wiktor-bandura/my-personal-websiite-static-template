@@ -8,7 +8,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
     &__head {
-        display: flex;
+        display: none;
         width: 100%;
         border-bottom: .1rem solid $primary;
     }
@@ -34,17 +34,24 @@
     }
 
     &__content {
-        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+        font-size: 1.8rem;
         line-height: 1.5;
         text-align: justify;
         visibility: hidden;
         height: 0;
         transition: .3s ease;
 
+        img {
+            display: none;
+        }
+
         &--active {
             visibility: visible;
             height: 100%;
-            padding: 4rem;
+            padding: 2rem;
         }
     }
 }

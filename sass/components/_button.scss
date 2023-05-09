@@ -8,6 +8,11 @@
     width: fit-content;
     transition: .1s ease-in-out;
 
+    &--dark {
+        color: $primary;
+        background-color: $secondary;
+    }
+
     &:hover {
         transform: translateY(.3rem);
     }
