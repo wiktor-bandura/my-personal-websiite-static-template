@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wiktor Bandura - Strony Internetowe</title>
+    <meta name="description" content="Czy potrzebujesz pomocy w przyciąganiu klientów do swojej firmy? Mogę stworzyć dla Ciebie profesjonalną stronę typu landing page, która w piękny sposób zaprezentuje Twoją firmę w internecie.">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mulish:wght@200;300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -116,7 +118,7 @@
                 <div class="offer-section__grid-box">
                     <div class="offer-section__grid-box-content">
                         <h3 class="heading-3 u-margin-bottom-small">
-                            <img class="offer-section__grid-box-icon" src="/img/web-icon.svg" alt=""> 
+                            <i class="bi bi-code-slash offer-section__grid-box-icon"></i> 
                             Strony landing page
                         </h3>
                         Potrzebujesz skutecznego sposobu na przyciągnięcie klientów? Umiem tworzyć profesjonalne strony typu landing page, które pięknie zaprezentują Twoją firmę w internecie. 
@@ -125,7 +127,7 @@
                 <div class="offer-section__grid-box">
                     <div class="offer-section__grid-box-content">
                         <h3 class="heading-3 u-margin-bottom-small">
-                            <img class="offer-section__grid-box-icon" src="/img/page-edit-icon.svg" alt=""> 
+                            <i  class="bi bi-wordpress offer-section__grid-box-icon"></i> 
                             Strony typu blog
                         </h3>
                         Potrzebujesz bloga? Oferuję tworzenie stron na Wordpress. Stwórzmy razem piękną, responsywną i łatwą w zarządzaniu stronę.
@@ -134,7 +136,7 @@
                 <div class="offer-section__grid-box">
                     <div class="offer-section__grid-box-content">
                         <h3 class="heading-3 u-margin-bottom-small">
-                            <img class="offer-section__grid-box-icon" src="/img/cart-icon.svg" alt=""> 
+                            <i class="bi bi-basket offer-section__grid-box-icon"></i>
                             Sklepy internetowe
                         </h3>
                         Rozwijasz swój biznes online? Projektuję i tworzę sklepy internetowe na platformie Wordpress Woocommerce. Skuteczne narzędzie dla Twojego sukcesu.
@@ -143,7 +145,7 @@
                 <div class="offer-section__grid-box">
                     <div class="offer-section__grid-box-content">
                         <h3 class="heading-3 u-margin-bottom-small">
-                            <img class="offer-section__grid-box-icon" src="/img/globe-icon.svg" alt=""> 
+                            <i class="bi bi-graph-up-arrow offer-section__grid-box-icon"></i>
                             Reklama Google Ads
                         </h3>
                         Zapewnij swojej firmie lepszą widoczność w internecie dzięki profesjonalnemu utrzymaniu kampanii Google Ads. 
@@ -230,14 +232,41 @@
             
         </div>
     </section>
-    <footer class="footer">
-        <h2 class="footer-subtitle">
-            Wiktor Bandura - Web Developer
-        </h2>
+    <footer class="footer-section">
+        <div class="container footer-section__wrapper">
+            <div class="footer-section__col">
+                <h2 class="footer-section__heading">O mnie</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam laborum iure expedita! Tempore at dolores unde, quaerat dignissimos vel voluptatem dolor iste, sit ex sapiente ipsum cum consequatur ipsa rerum!</p>
+            </div>
+            <div class="footer-section__col">
+                <h2 class="footer-section__heading">Menu</h2>
+                <ul class="footer-section__nav-list">
+                    <li class="footer-section__nav-link">Realizacje</li>
+                    <li class="footer-section__nav-link">O mnie</li>
+                    <li class="footer-section__nav-link">Blog</li>
+                    <li class="footer-section__nav-link">Technologie</li>
+                </ul>
+            </div>
+            <div class="footer-section__col">
+                <h2 class="footer-section__heading">Wiktor Bandura</h2>
+                <ul class="footer-section__nav-list">
+                    <li class="footer-section__nav-link">Kontakt</li>
+                    <li class="footer-section__nav-link">Polityka Prywatności</li>
+                    <li class="footer-section__nav-link">Mapa Strony</li>
+                    <li class="footer-section__nav-link">Kanał na YT (comming soon)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-section__bottom">
+            <p class="footer-section__copy">Copyright &copy; 2023 All Rights Reserved by Wiktor Bandura </p>
+            <div class="footer-section__socialmedia-wrapper">
+                <a aria-label="Link do github" class="footer-section__socialmedia-icon" href="#"><i class="bi bi-github"></i></a>
+                <a aria-label="Link do linkedin" class="footer-section__socialmedia-icon" href="#"><i class="bi bi-linkedin"></i></a>
+                <a aria-label="Link do  instagram" class="footer-section__socialmedia-icon" href="#"><i class="bi bi-instagram"></i></a>
+                <a aria-label="Link do gmail" class="footer-section__socialmedia-icon" href="#"><i class="bi bi-google"></i></a>
+            </div>
+        </div>
     </footer>
-    <script type="text/javascript">
-        const checkbox = document.querySelector('#burger');
-        checkbox.addEventListener('change', () => checkbox.checked ? document.body.style.overflowY = 'hidden' : document.body.style.overflowY = 'scroll')
-    </script>
+
 </body>
 </html>
