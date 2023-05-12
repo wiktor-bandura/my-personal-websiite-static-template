@@ -7,6 +7,8 @@
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
+    
+
     &__head {
         display: none;
         width: 100%;
@@ -54,4 +56,10 @@
             padding: 2rem;
         }
     }
+
+    @media only screen and (min-wdith: 992px) {
+        border-radius: 20px;
+        overflow: hidden;
+    }
 }
+

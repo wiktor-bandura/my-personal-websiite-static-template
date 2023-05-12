@@ -1,6 +1,6 @@
 .realizations-section {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     position: relative;
     padding: 1.5rem;
     background-color: $secondary;

@@ -38,7 +38,7 @@ body {
   @media (min-width: 992px) {
 
     body {
-      border: 2rem solid $secondary;
+      border: 3rem solid $secondary;
     }
 
     .container {
@@ -47,11 +47,14 @@ body {
   }
 
   @media (min-width: 1200px) {
+
+    html {
+      font-size: 75%;
+    }
+
     .container {
       width: 1170px;
     }
-
-    
   }
 
   .violet {

@@ -1,0 +1,20 @@
+.post-info {
+    font-size: 1.8rem;
+    max-width: 200px;
+    padding: .5rem .8rem;
+    text-align: center;
+}
+
+.article {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    margin: 3rem auto;
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+    p, ul, div {
+        margin-bottom: 2rem;
+    }
+}
