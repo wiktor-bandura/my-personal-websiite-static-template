@@ -27,6 +27,20 @@
 
     &__nav-list {
         list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    &__nav-link  {
+        color: currentColor;
+        text-decoration: none;
+        transition: .2s ease;
+
+        &:hover {
+            color: $primary;
+            text-decoration: underline;
+        }
     }
 
     &__bottom {
@@ -52,6 +66,7 @@
     &__socialmedia-icon {
         font-size: 3rem;
         color: currentColor;
+        transition: .2s ease;
 
         &:hover {
             color: $primary;

@@ -7,13 +7,13 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     z-index: 3;
     border-radius: 1.5rem;
+    color: $light;
 
     &__realization {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         position: relative;
-        color: $primary;
         padding: 2.5rem;
 
         .heading-4 {

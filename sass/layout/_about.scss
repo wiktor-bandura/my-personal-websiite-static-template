@@ -1,12 +1,16 @@
 .about-section {
     background-color: $secondary;
-    color: $primary;
+    color: $light;
     font-family: $secondary-font;
     position: relative;
     margin-top: 4rem;
     z-index: 2;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    border-radius: 1.5rem;
+    
+
+    @media only screen and (min-width: 992px) {
+        border-radius: 1.5rem;
+    }
 
     
 

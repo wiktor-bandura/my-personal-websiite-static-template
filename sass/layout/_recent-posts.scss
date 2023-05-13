@@ -14,8 +14,10 @@
             color: #333;
             height: 40rem;
             text-decoration: none;
+    
         
             &-button {
+                cursor: pointer;
                 margin: 4rem 0;
                 border: none;
             }
@@ -23,7 +25,9 @@
             .heading-4 {
                 display: flex;
                 align-items: center;
-                gap: 2rem;
+                gap: 1rem;
+                font-weight: 500;
+                font-size: 2.3rem;
             }
 
             &:hover .heading-4 {
@@ -32,7 +36,7 @@
 
             &-content {
                 font-family: $secondary-font;
-                font-size: 1.8rem;
+                font-size: 2rem;
                 padding: 1rem;
             }
         }

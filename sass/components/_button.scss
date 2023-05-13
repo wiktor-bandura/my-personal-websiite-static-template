@@ -9,13 +9,10 @@
     width: fit-content;
     transition: .1s ease-in-out;
     border-radius: .7rem;
+    font-size: 1.5rem;
 
     &--dark {
-        color: $primary;
+        color: $light;
         background-color: $secondary;
-    }
-
-    &:hover {
-        transform: translateY(.3rem);
     }
 }
