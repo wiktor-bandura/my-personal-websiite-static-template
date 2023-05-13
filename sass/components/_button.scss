@@ -4,9 +4,11 @@
     color: $secondary;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: $secondary-font;
     background-color: $primary;
     width: fit-content;
     transition: .1s ease-in-out;
+    border-radius: .7rem;
 
     &--dark {
         color: $primary;
