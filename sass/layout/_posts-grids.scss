@@ -1,6 +1,9 @@
-.recent-posts {
+.posts-grid {
+    position: relative;
     display: block;
     padding-bottom: 5rem;
+    margin-top: -10rem;
+    z-index: 3;
 
     &__title {
         text-align: center;
@@ -38,7 +41,13 @@
                 font-family: $secondary-font;
                 font-size: 2rem;
                 padding: 1rem;
+
+                 
             }
         }
+    }
+
+    &--archive {
+        margin-top: 0;
     }
 }

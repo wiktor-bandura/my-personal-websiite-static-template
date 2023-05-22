@@ -52,7 +52,13 @@
         transition: .3s ease;
 
         img {
+            
             display: none;
+
+            @media only screen and (min-width: 992px) {
+                display: block;
+
+            }
         }
 
         &--active {
@@ -65,6 +71,7 @@
     @media only screen and (min-wdith: 992px) {
         border-radius: 20px;
         overflow: hidden;
+        text-align: right;
     }
 }
 
