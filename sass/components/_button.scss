@@ -1,49 +1,9 @@
-.button {
-    display: block;
-    position: relative;
-    padding: 1.5rem 4rem;
-    border-radius: 4rem;
-    background: transparent;
-    border: 2px solid $secondary;
-    z-index: 3;
-    overflow: hidden;
+.btn {
+    width: 200px;
+    padding: 1rem 2rem;
+    background-color: $dark;
+    color: $light;
+    text-align: center;
     text-decoration: none;
-    color: currentColor;
-    font-size: 1.6rem;
-    max-width: fit-content;
-
-    span {
-        position: inherit;
-        z-index: 3;
-    }
-
-    &::after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        background-color: $primary;
-        transform: translateY(110%);
-        transition: .2s ease;
-    }
-
-    &:hover {
-        text-decoration: underline;
-
-        &::after {
-            transform: translate(0);
-        }
-    }
-
-    &--light {
-        color: $light;
-        border-color: $light;
-
-        &::after {
-            background-color: transparent;
-        }
-    }
+    text-transform: uppercase;
 }
